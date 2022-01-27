@@ -1,0 +1,27 @@
+https://github.com/lgrave264/multi-api.git
+
+https://github.com/lgrave264/task-manager.git
+
+https://www.npmjs.com/package/cra-template-basegraves12
+//
+
+skills - 0-5
+HTML - 4
+CSS - 4
+JS - 4
+SCSS - 4
+
+React - 5
+Node - 3
+//
+
+About me:
+I'm am a developing coding student that has been taught in many 
+fields inlcuding React. It is a dream of mine to make games, it has been for as long 
+as i can remember. I am trying to earn my associates degree and then go to UAT to earn 
+my degree in game developing. I have traveled to many parts of the world includig Germany 
+to which my family is from. 
+
+Inrto:
+My name is Luca Graves, welcome to my website taht shows off my work and skills as well as 
+telling you what i plan to do in the future.
