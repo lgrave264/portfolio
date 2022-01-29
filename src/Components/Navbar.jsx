@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import Small from './Small'
 import { AiOutlineMenu } from 'react-icons/ai';
 import { FiMoreVertical } from 'react-icons/fi';
+import { AiFillGithub } from 'react-icons/ai';
 
 const Navbar = () => {
     const [size, setSize] = useState(window.innerWidth);
@@ -31,12 +32,10 @@ const [toggle, setToggle] = useState(false);
         return (
             <header>
                 <ul  className='navbar'>
-                    <li id='title'>CODING</li>
-                    <li className='links'><a href="#">Homepage</a></li>
-                    <li className='links'><a href="#">West-Mec</a></li>
-                    <li className='links'><a href="#">Vet-Program</a></li>
-                    <li className='links'><a href="#">Pets</a></li>
-                    <li className='links'><a href="#">About</a></li>
+                    <li id='title'>Luca Graves</li>
+                    <li className='links'><a href="">Homepage</a></li>
+                    <li className='links'><a href="https://github.com/lgrave264">MyHub</a></li>
+                    <li className='links'><a href="https://github.com/lgrave264/portfolio"><AiFillGithub/></a></li>
                 </ul>
             </header>
         )

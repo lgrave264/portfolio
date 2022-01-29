@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillGithub } from 'react-icons/ai';
 
 const Small = ({toggle}) => {
         if(toggle){
@@ -6,11 +7,9 @@ const Small = ({toggle}) => {
                 <div className='small'>
                     <div className='divlinks2'>
                         <ul className='links2'>
-                            <li><a href='#'>HomePage</a></li>
-                            <li><a href='#'>West-Mec</a></li>
-                            <li><a href='#'>Vet-Program</a></li>
-                            <li><a href='#'>Pets</a></li>
-                            <li><a href='#'>About</a></li>
+                        <li className='links'><a href="">Homepage</a></li>
+                        <li className='links'><a href="https://github.com/lgrave264">MyHub</a></li>
+                        <li className='links'><a href="https://github.com/lgrave264/portfolio"><AiFillGithub/></a></li>
                         </ul>
                     </div>
                 </div>
