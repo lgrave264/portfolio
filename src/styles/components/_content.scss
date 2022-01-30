@@ -10,11 +10,6 @@
     background-color: #333;
 }
 
-#contentRow{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 #catlist{
     display: flex;
     justify-content: space-around;
@@ -24,9 +19,9 @@
     background-color: #333;
     border:darkred 2px solid;
     position: fixed;
-    width: 100%;
-    left: 0;
+    width: 40%;
     top: 3.25rem;
+    margin-left: 30%;
 }
 
 .sub{
@@ -34,9 +29,23 @@
     display: inline-block;
     text-align: center;
     font-family: Anime;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .subtext{
     color: white;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.flex > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }

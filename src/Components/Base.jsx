@@ -26,7 +26,7 @@ const Base = () => {
     )
     }else if(isLoading){
       return(
-        <div>
+        <div id="load">
           <Load/>
         </div>
       )

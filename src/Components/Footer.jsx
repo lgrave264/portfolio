@@ -26,7 +26,7 @@ const Footer = () => {
                         <a href="https://github.com/lgrave264"><AiFillGithub size={30} color={'white'}/></a><br/>
                         <a href="https://www.npmjs.com/~lpgra256"><DiNpm size={30} color={'white'}/></a><br/>
                         <a href="https://app.netlify.com/teams/lpgra256/overview"><SiNetlify size={30} color={'white'}/></a><br/>
-                        <a href=""><SiGmail size={30} color={'white'}/></a><br/>
+                        <a href="mailto: lpgra256@gmail.com"><SiGmail size={30} color={'white'}/></a><br/>
                     </p>
                 </div>
             </footer>
