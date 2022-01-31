@@ -37,7 +37,7 @@ const [toggle, setToggle] = useState(false);
                     <li className='links'><a href="">Homepage</a></li>
                     <li className='links'><a href="https://github.com/lgrave264">MyHub</a></li>
                     <li className='links'><a href="https://github.com/lgrave264/portfolio"><AiFillGithub size={25} color={'white'}/></a></li>
-                    <li><a href="https://app.netlify.com/teams/lpgra256/overview"><SiNetlify size={25} color={'white'}/></a></li>
+                    <li className='links'><a href="https://app.netlify.com/teams/lpgra256/overview"><SiNetlify size={25} color={'white'}/></a></li>
                 </ul>
             </header>
         )

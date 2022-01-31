@@ -10,6 +10,10 @@ import NODEJS from '../images/NodeJs.png';
 import PFP from '../images/pfp.jpg';
 import WEST from '../images/WMNE.jpg';
 import GCC from '../images/GCC.jpg';
+import VAC1 from '../images/vacation1.jpg';
+import VAC2 from '../images/vacation2.jpg';
+import UAT from '../images/UAT.jpg';
+import NardDog from '../images/bernard.jpg';
 
 const Content = () => {
 	const [home, setHome] = useState(true);
@@ -17,7 +21,7 @@ const Content = () => {
 	const [skill, setSkill] = useState(false);
 	if(home === true){
 		return(
-			<div>
+			<div id='bigdiv'>
 				<ul id="catlist">
 					<li className='sub'><button className="subtext" onClick={()=>{setHome(true);setAbout(false);setSkill(false);}}>Intro Page</button></li>
 					<li className='sub'><button className="subtext" onClick={()=>{setHome(false);setAbout(true);setSkill(false);}}>Skills</button></li>
@@ -104,8 +108,19 @@ const Content = () => {
 					<li className='sub'><button className="subtext" onClick={()=>{setHome(false);setAbout(true);setSkill(false);}}>Skills</button></li>
 					<li className='sub'><button className="subtext" onClick={()=>{setHome(false);setAbout(false);setSkill(true);}}>About Me</button></li>
 				</ul>
-				<div id="flex3">
-					<div></div>
+				<div className="flex3">
+					<img className="vacimg1" src={VAC1}/><img className="vacimg2" src={VAC2}/>
+					<div>
+						<h2 id='flex1text5'>I'm am a developing coding student that has been taught in many fields inlcuding React. It is a dream of mine to make games, it has been for as long as i can remember.I have traveled to many parts of the world includig Germany to which my family is from. I am currently 18 years old with my birthday being in april. </h2>
+					</div>
+					<div>
+						<img className='vacimg3' src={UAT}/>
+						<h2 id='flex1text6'>This is the UAT campus, University of Advanced Technology. This is the university that i want to go to, once i earn my associates degree i will apply there and earn my coding degree in Game Development. For a while I didn't know where I wanted to go, but thanks to West-Mec i was pointed in a direction that i was glad to have seen. </h2>
+					</div>
+					<div>
+						<img className='flex3pfp2' src={NardDog}/>
+						<h2 id='flex1text7'>This is Khadeem Bernard, He is not only my current Coding teacher for West-Mec, he is someone that inspires me. While I may not always be the best student he has always been the best teacher.He teaches with fairness that most teachers don't. I could not have asked for a better teacher.</h2>
+					</div>
 				</div>
 			</div>
 		)

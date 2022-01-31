@@ -487,7 +487,7 @@ footer {
   width: 100%;
   transform-origin: left;
   transform: scaleX(0);
-  background-color: blue;
+  background-color: red;
   transition: transform 0.5s ease;
 }
 .links a:hover::after {
@@ -630,10 +630,24 @@ footer {
   font-size: 15px;
 }
 
+@media only screen and (max-width: 500px) {
+  #catlist {
+    display: block;
+  }
+
+  .sub {
+    display: block;
+  }
+}
 .subtext {
   color: white;
 }
 
+@media only screen and (max-width: 1700px) {
+  #bigdiv {
+    margin-bottom: 20rem;
+  }
+}
 .flex1banner {
   margin-top: 5rem;
   background-image: url(../images/banner.jpg);
@@ -713,6 +727,120 @@ footer {
 #SkillText {
   color: white;
   font-weight: bolder;
+}
+
+.flex3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.flex3 > div {
+  width: auto;
+  margin: 5px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.vacimg1 {
+  height: 60rem;
+  width: 45rem;
+  margin-left: 10%;
+}
+
+.vacimg2 {
+  height: 60rem;
+  width: 45rem;
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1635px) {
+  .vacimg1 {
+    height: 50rem;
+    width: 35rem;
+  }
+
+  .vacimg2 {
+    height: 50rem;
+    width: 35rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .vacimg1 {
+    height: 45rem;
+    width: 30rem;
+  }
+
+  .vacimg2 {
+    height: 45rem;
+    width: 30rem;
+  }
+}
+@media only screen and (max-width: 1102px) {
+  .vacimg1 {
+    height: 40rem;
+    width: 25rem;
+  }
+
+  .vacimg2 {
+    height: 40rem;
+    width: 25rem;
+  }
+}
+#flex1text5 {
+  text-align: center;
+  color: white;
+  max-width: 90rem;
+  float: right;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+#flex1text6 {
+  text-align: center;
+  color: white;
+  max-width: 30rem;
+  float: right;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.vacimg3 {
+  height: 45rem;
+  width: 55rem;
+  margin-left: 1rem;
+  float: left;
+}
+
+@media only screen and (max-width: 1605px) {
+  .vacimg3 {
+    height: 25rem;
+    width: 35rem;
+  }
+
+  #flex1text6 {
+    float: left;
+  }
+}
+.flex3pfp2 {
+  float: right;
+  border-radius: 60%;
+  height: 20rem;
+  width: 20rem;
+}
+
+#flex1text7 {
+  text-align: center;
+  color: white;
+  max-width: 80rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
 #load {
