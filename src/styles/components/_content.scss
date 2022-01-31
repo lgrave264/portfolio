@@ -93,6 +93,8 @@
     margin-top: 10rem;
 }
 
+
+
 #flex1text3{
     text-align: center;
     color: white;
@@ -109,6 +111,17 @@
     float: right;
     margin-right: 5rem;
     margin-top: 3rem;
+}
+
+@media only screen and (max-width: 1635px) {
+    .vacimg1 {
+        height: 50rem;
+        width: 35rem;
+    }
+    .vacimg2 {
+        height: 50rem;
+        width: 35rem;
+    }
 }
 
 .flex2{
