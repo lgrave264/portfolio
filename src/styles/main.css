@@ -447,8 +447,8 @@ footer {
     font-size: auto;
   }
 }
-#rightfoot {
-  margin-left: 3rem;
+#aboutBox {
+  max-width: 25rem;
 }
 
 #title {
@@ -615,7 +615,7 @@ footer {
   padding-top: 0;
   overflow: hidden;
   background-color: #333;
-  border: darkred 2px solid;
+  border: white 2px solid;
   position: fixed;
   width: 40%;
   top: 3.25rem;
@@ -634,18 +634,85 @@ footer {
   color: white;
 }
 
-.flex {
+.flex1banner {
+  margin-top: 5rem;
+  background-image: url(../images/banner.jpg);
+  height: 30rem;
+  background-position: 40% 40%;
+}
+
+.flex1 {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: white;
+}
+
+.flex1 > div {
+  margin-top: 1rem;
+}
+
+#flex1pfp {
+  border-radius: 50%;
+  height: 25rem;
+  width: 25rem;
+}
+
+#flex1text {
+  text-align: center;
+  color: white;
+}
+
+#flex1img {
+  height: 25rem;
+  width: 43.75rem;
+}
+
+#flex1text2 {
+  text-align: center;
+  color: white;
+  max-width: 80rem;
+  float: right;
+  margin-right: 5rem;
+  margin-top: 10rem;
+}
+
+#flex1text3 {
+  text-align: center;
+  color: white;
+  max-width: 70rem;
+  float: right;
+  margin-right: 5rem;
+  margin-top: 5rem;
+}
+
+#flex1text4 {
+  text-align: center;
+  color: white;
+  max-width: 70rem;
+  float: right;
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+
+.flex2 {
   display: flex;
   flex-wrap: wrap;
   margin-top: 5rem;
 }
 
-.flex > div {
-  width: 100px;
-  margin: 10px;
+.flex2 > div {
+  width: auto;
+  margin: 5px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+#SkillText {
+  color: white;
+  font-weight: bolder;
 }
 
 #load {

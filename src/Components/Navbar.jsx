@@ -3,6 +3,7 @@ import Small from './Small'
 import { AiOutlineMenu } from 'react-icons/ai';
 import { FiMoreVertical } from 'react-icons/fi';
 import { AiFillGithub } from 'react-icons/ai';
+import { SiNetlify } from 'react-icons/si';
 
 const Navbar = () => {
     const [size, setSize] = useState(window.innerWidth);
@@ -35,7 +36,8 @@ const [toggle, setToggle] = useState(false);
                     <li id='title'>Luca Graves</li>
                     <li className='links'><a href="">Homepage</a></li>
                     <li className='links'><a href="https://github.com/lgrave264">MyHub</a></li>
-                    <li className='links'><a href="https://github.com/lgrave264/portfolio"><AiFillGithub/></a></li>
+                    <li className='links'><a href="https://github.com/lgrave264/portfolio"><AiFillGithub size={25} color={'white'}/></a></li>
+                    <li><a href="https://app.netlify.com/teams/lpgra256/overview"><SiNetlify size={25} color={'white'}/></a></li>
                 </ul>
             </header>
         )

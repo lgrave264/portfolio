@@ -12,7 +12,7 @@ JS - 4
 SCSS - 4
 
 React - 5
-Node - 3
+Node - 3.5
 //
 
 About me:
@@ -23,5 +23,5 @@ my degree in game developing. I have traveled to many parts of the world includi
 to which my family is from. 
 
 Inrto:
-My name is Luca Graves, welcome to my website taht shows off my work and skills as well as 
-telling you what i plan to do in the future.
+My name is Luca Graves, welcome to my website that shows off my work and skills as well as 
+telling you what I plan to do in the future.
