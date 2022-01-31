@@ -245,3 +245,65 @@
     margin-top: 3rem;
     margin-left: 3rem;
 }
+
+#link1{
+    margin-right: 20%;
+}
+
+#link2{
+    margin-right: 20%;
+}
+
+.linkimg1{
+    height: 30rem;
+    width: 60rem;
+}
+
+.linkimg2{
+    height: 30rem;
+    width: 60rem;
+}
+
+@media only screen and (max-width: 1060px) {
+    .linkimg1{
+        height: 20rem;
+        width: 50rem;
+    }
+    .linkimg2{
+        height: 20rem;
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .linkimg1{
+        height: 15rem;
+        width: 40rem;
+    }
+    .linkimg2{
+        height: 15rem;
+        width: 40rem;
+    }
+}
+
+#linkalign{
+    margin-left: 20%;
+}
+
+#flex1text8{
+    text-align: center;
+    color: white;
+    max-width: 80rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-left: 20%;
+}
+
+#flex1text9{
+    text-align: center;
+    color: white;
+    max-width: 80rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    margin-left: 8%;
+}

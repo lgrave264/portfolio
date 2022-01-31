@@ -121,6 +121,14 @@ const Content = () => {
 						<img className='flex3pfp2' src={NardDog}/>
 						<h2 id='flex1text7'>This is Khadeem Bernard, He is not only my current Coding teacher for West-Mec, he is someone that inspires me. While I may not always be the best student he has always been the best teacher.He teaches with fairness that most teachers don't. I could not have asked for a better teacher.</h2>
 					</div>
+					<div>
+						<h2 id='flex1text8'>This is a link to my template I have mentioned that I tried to perfect. You are welcome to use it how you please.</h2>
+						<a id="linkalign" href='https://www.npmjs.com/package/cra-template-basegraves12'>Link</a>
+					</div>
+					<div>
+						<h2 id="flex1text9">These are two of my best projects that I have completed recently. Click on the image to visit the link. </h2>
+						<a id="link1" href=''><img className="linkimg1" src={VAC1}/></a><a id="link2" href=''><img className="linkimg2" src={VAC2}/></a>
+					</div>
 				</div>
 			</div>
 		)
