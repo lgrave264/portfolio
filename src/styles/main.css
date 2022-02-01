@@ -759,6 +759,13 @@ footer {
   font-size: 200%;
 }
 
+#SkillText2 {
+  color: white;
+  font-family: anime;
+  font-size: 200%;
+  margin-left: 2rem;
+}
+
 .flex3 {
   display: flex;
   flex-wrap: wrap;

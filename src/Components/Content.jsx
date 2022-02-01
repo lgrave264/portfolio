@@ -14,6 +14,16 @@ import VAC1 from '../images/vacation1.jpg';
 import VAC2 from '../images/vacation2.jpg';
 import UAT from '../images/UAT.jpg';
 import NardDog from '../images/bernard.jpg';
+import TOUR from '../images/tours.JPG';
+import CAP from '../images/capstone.JPG';
+import FF from '../images/ff.JPG';
+import ANIME from '../images/animerch.JPG';
+import PAPER from '../images/paperjam.JPG';
+import PIZZA from '../images/pizza.JPG';
+import MENU from '../images/menu.JPG';
+import HUMMUS from '../images/hummus.JPG';
+import FAN from '../images/fansite.JPG';
+import TOY from '../images/toy.JPG';
 
 const Content = () => {
 	const [home, setHome] = useState(true);
@@ -98,6 +108,9 @@ const Content = () => {
 					<div><BsStar size={100} color={'lightblue'}/></div>
 					<div id='SkillText'>NodeJs is my next favorite but I still have alot to get used to and learn before I can say I can use it just as good as React. I know to what I believe is most of the basics in NodeJs, to using URL's to change the page and get API information to having a functional task-manager app. I still have a ways to go as I need to learn better ways to implement HTML and express.</div>
 				</div>
+				<hr></hr>
+				<div id="SkillText2">In terms of work experience I lack it alot, I only had one job and I just filled in whenever they needed me at a paintball arena called FighterTown. In terms of volunteering though I have alot of it. From donating my blood as often as possible to volunteering at Saint Mary's Food bank I do most of what I can. Every good person needs to help others out in some way shape or form.
+				</div>
 			</div>
 		)
 	}else{
@@ -125,21 +138,18 @@ const Content = () => {
 						<h2 id='flex1text8'>This is a link to my template I have mentioned that I tried to perfect. You are welcome to use it how you please.</h2>
 						<a id="linkalign" href='https://www.npmjs.com/package/cra-template-basegraves12'>Link</a>
 					</div>
-					<div>
-						<h2></h2>
-					</div>
 				</div>
 				<div className='flex4'>
-					<div className='projectdiv'><a href='https://lgrave264.github.io/tours/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://lgrave264.github.io/Capstone/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://lgrave264.github.io/FF/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://modest-nobel-6c9103.netlify.app/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://schoolpotato.github.io/PaperJam/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://lgrave264.github.io/PizzaWebForm/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://lgrave264.github.io/menu/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://lgrave264.github.io/Hummus/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://lgrave264.github.io/Fansite/'><img className="projectimg" src={VAC1}/></a></div>
-					<div className='projectdiv'><a href='https://lgrave264.github.io/groupTOY/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://inspiring-visvesvaraya-4ec2e2.netlify.app/'><img className="projectimg" src={TOUR}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/Capstone/'><img className="projectimg" src={CAP}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/FF/'><img className="projectimg" src={FF}/></a></div>
+					<div className='projectdiv'><a href='https://modest-nobel-6c9103.netlify.app/'><img className="projectimg" src={ANIME}/></a></div>
+					<div className='projectdiv'><a href='https://schoolpotato.github.io/PaperJam/'><img className="projectimg" src={PAPER}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/PizzaWebForm/'><img className="projectimg" src={PIZZA}/></a></div>
+					<div className='projectdiv'><a href='https://hopeful-ptolemy-500b65.netlify.app/'><img className="projectimg" src={MENU}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/Hummus/'><img className="projectimg" src={HUMMUS}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/Fansite/'><img className="projectimg" src={FAN}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/groupTOY/'><img className="projectimg" src={TOY}/></a></div>
 				</div>
 			</div>
 		)
