@@ -688,6 +688,8 @@ footer {
   float: right;
   margin-right: 5rem;
   margin-top: 10rem;
+  font-family: anime;
+  font-size: 200%;
 }
 
 #flex1text3 {
@@ -697,6 +699,8 @@ footer {
   float: right;
   margin-right: 5rem;
   margin-top: 5rem;
+  font-family: anime;
+  font-size: 200%;
 }
 
 #flex1text4 {
@@ -706,8 +710,33 @@ footer {
   float: right;
   margin-right: 5rem;
   margin-top: 3rem;
+  font-family: anime;
+  font-size: 200%;
 }
 
+@media only screen and (max-width: 1700px) {
+  #flex1text2 {
+    max-width: 70rem;
+  }
+}
+@media only screen and (max-width: 1635px) {
+  #flex1text2 {
+    max-width: 50rem;
+  }
+
+  #flex1text3 {
+    max-width: 100rem;
+  }
+
+  #flex1text4 {
+    max-width: 100rem;
+  }
+}
+@media only screen and (max-width: 1435px) {
+  #flex1text2 {
+    max-width: 40rem;
+  }
+}
 .flex2 {
   display: flex;
   flex-wrap: wrap;
@@ -726,7 +755,8 @@ footer {
 
 #SkillText {
   color: white;
-  font-weight: bolder;
+  font-family: anime;
+  font-size: 200%;
 }
 
 .flex3 {
@@ -798,6 +828,8 @@ footer {
   margin-right: 5rem;
   margin-top: 3rem;
   margin-left: 3rem;
+  font-family: anime;
+  font-size: 100%;
 }
 
 #flex1text6 {
@@ -808,6 +840,8 @@ footer {
   margin-right: 5rem;
   margin-top: 3rem;
   margin-left: 3rem;
+  font-family: anime;
+  font-size: 100%;
 }
 
 .vacimg3 {
@@ -841,50 +875,8 @@ footer {
   margin-right: 5rem;
   margin-top: 3rem;
   margin-left: 3rem;
-}
-
-#link1 {
-  margin-right: 20%;
-}
-
-#link2 {
-  margin-right: 20%;
-}
-
-.linkimg1 {
-  height: 30rem;
-  width: 60rem;
-}
-
-.linkimg2 {
-  height: 30rem;
-  width: 60rem;
-}
-
-@media only screen and (max-width: 1060px) {
-  .linkimg1 {
-    height: 20rem;
-    width: 50rem;
-  }
-
-  .linkimg2 {
-    height: 20rem;
-    width: 50rem;
-  }
-}
-@media only screen and (max-width: 900px) {
-  .linkimg1 {
-    height: 15rem;
-    width: 40rem;
-  }
-
-  .linkimg2 {
-    height: 15rem;
-    width: 40rem;
-  }
-}
-#linkalign {
-  margin-left: 20%;
+  font-family: anime;
+  font-size: 100%;
 }
 
 #flex1text8 {
@@ -894,17 +886,52 @@ footer {
   margin-right: 5rem;
   margin-top: 3rem;
   margin-left: 20%;
+  font-family: anime;
+  font-size: 100%;
 }
 
-#flex1text9 {
-  text-align: center;
+.flex4 {
+  display: flexbox;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+  margin-left: 10rem;
   color: white;
-  max-width: 80rem;
-  margin-right: 5rem;
-  margin-top: 3rem;
-  margin-left: 8%;
+  width: 80%;
+  margin-bottom: 80rem;
+  max-height: 80rem;
 }
 
+.projectdiv {
+  overflow: hidden;
+  border-radius: 1rem;
+  border: white solid 2px;
+  width: 30rem;
+  height: 15rem;
+  margin-left: 1rem;
+  float: left;
+}
+
+@media only screen and (max-width: 1700px) {
+  .projectdiv {
+    height: 10rem;
+    width: 20rem;
+  }
+}
+.projectimg {
+  height: 15rem;
+  width: 30rem;
+}
+
+@media only screen and (max-width: 1700px) {
+  .projectimg {
+    height: 10rem;
+    width: 20rem;
+  }
+}
+@font-face {
+  font-family: "anime";
+  src: url(../Util/animeace2_reg.ttf);
+}
 #load {
   margin-left: 30%;
   margin-top: 5rem;

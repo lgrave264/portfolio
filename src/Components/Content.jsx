@@ -126,9 +126,20 @@ const Content = () => {
 						<a id="linkalign" href='https://www.npmjs.com/package/cra-template-basegraves12'>Link</a>
 					</div>
 					<div>
-						<h2 id="flex1text9">These are two of my best projects that I have completed recently. Click on the image to visit the link. </h2>
-						<a id="link1" href=''><img className="linkimg1" src={VAC1}/></a><a id="link2" href=''><img className="linkimg2" src={VAC2}/></a>
+						<h2></h2>
 					</div>
+				</div>
+				<div className='flex4'>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/tours/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/Capstone/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/FF/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://modest-nobel-6c9103.netlify.app/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://schoolpotato.github.io/PaperJam/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/PizzaWebForm/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/menu/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/Hummus/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/Fansite/'><img className="projectimg" src={VAC1}/></a></div>
+					<div className='projectdiv'><a href='https://lgrave264.github.io/groupTOY/'><img className="projectimg" src={VAC1}/></a></div>
 				</div>
 			</div>
 		)
